@@ -19,6 +19,14 @@
       "logoURI": "/images/coins/BUSD.png"
     },
     {
+      "name": "Lord of War",
+      "address": "0x179983892eC36287f1F342443B671Ba549762241",
+      "symbol": "GUNS",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "/images/coins/0x179983892eC36287f1F342443B671Ba549762241.png"
+    },
+    {
       "name": "Thugs.Finance",
       "address": "0xE10e9822A5de22F8761919310DDA35CD997d63c0",
       "symbol": "THUGS",
