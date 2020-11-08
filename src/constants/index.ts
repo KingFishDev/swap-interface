@@ -1,9 +1,9 @@
 import { AbstractConnector } from '@web3-react/abstract-connector'
-import { ChainId, JSBI, Percent, Token, WETH } from '@bscswap/sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from '@thugs-defi/sdk'
 
 import { injected, binanceinjected, walletconnect, walletlink } from '../connectors'
 
-export const ROUTER_ADDRESS = '0xd954551853F55deb4Ae31407c423e67B1621424A'
+export const ROUTER_ADDRESS = '0x28e856DdBFCb518c3A3cB740b12D07880F7cB395'
 
 // a list of tokens by chain
 type ChainTokenList = {

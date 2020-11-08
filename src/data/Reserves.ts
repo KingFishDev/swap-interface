@@ -1,13 +1,13 @@
-import { TokenAmount, Pair, Currency } from '@bscswap/sdk'
+import { TokenAmount, Pair, Currency } from '@thugs-defi/sdk'
 import { useMemo } from 'react'
-import { abi as IBSCswapPairABI } from '@bscswap/contracts/build/IBSCswapPair.json'
+import { abi as IThugswapPairABI } from '../constants/abis/IThugswapPair.json'
 import { Interface } from '@ethersproject/abi'
 import { useActiveWeb3React } from '../hooks'
 
 import { useMultipleContractSingleData } from '../state/multicall/hooks'
 import { wrappedCurrency } from '../utils/wrappedCurrency'
 
-const PAIR_INTERFACE = new Interface(IBSCswapPairABI)
+const PAIR_INTERFACE = new Interface(IThugswapPairABI)
 
 export enum PairState {
   LOADING,

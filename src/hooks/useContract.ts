@@ -1,6 +1,6 @@
 import { Contract } from '@ethersproject/contracts'
-import { ChainId, WETH } from '@bscswap/sdk'
-import { abi as IBSCswapPairABI } from '@bscswap/contracts/build/IBSCswapPair.json'
+import { ChainId, WETH } from '@thugs-defi/sdk'
+import { abi as IThugswapPairABI } from '../constants/abis/IThugswapPair.json'
 import { useMemo } from 'react'
 import { ERC20_BYTES32_ABI } from '../constants/abis/erc20'
 import UNISOCKS_ABI from '../constants/abis/unisocks.json'
@@ -46,7 +46,6 @@ export function useTokenContract(tokenAddress?: string, withSignerIfPossible?: b
   return useContract(tokenAddress, ERC20_ABI, withSignerIfPossible)
 }
 
-
 export function useThugsInfoContract(thugsContract?: string): Contract | null {
   return useContract(thugsContract, THUGSINFO_ABI, false)
 }
@@ -61,7 +60,7 @@ export function useBytes32TokenContract(tokenAddress?: string, withSignerIfPossi
 }
 
 export function usePairContract(pairAddress?: string, withSignerIfPossible?: boolean): Contract | null {
-  return useContract(pairAddress, IBSCswapPairABI, withSignerIfPossible)
+  return useContract(pairAddress, IThugswapPairABI, withSignerIfPossible)
 }
 
 export function useMulticallContract(): Contract | null {

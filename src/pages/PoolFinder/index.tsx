@@ -1,4 +1,4 @@
-import { Currency, ETHER, JSBI, TokenAmount } from '@bscswap/sdk'
+import { Currency, ETHER, JSBI, TokenAmount } from '@thugs-defi/sdk'
 import React, { useCallback, useEffect, useState } from 'react'
 import { Plus } from 'react-feather'
 import { Text } from 'rebass'

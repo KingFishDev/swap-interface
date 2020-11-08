@@ -1,4 +1,4 @@
-import { Trade, TradeType } from '@bscswap/sdk'
+import { Trade, TradeType } from '@thugs-defi/sdk'
 import React, { useContext, useMemo, useState } from 'react'
 import { Repeat } from 'react-feather'
 import { Text } from 'rebass'

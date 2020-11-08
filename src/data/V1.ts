@@ -14,7 +14,7 @@ import {
   Trade,
   TradeType,
   WETH
-} from '@bscswap/sdk'
+} from '@thugs-defi/sdk'
 import { useMemo } from 'react'
 import { useActiveWeb3React } from '../hooks'
 import { useAllTokens } from '../hooks/Tokens'
