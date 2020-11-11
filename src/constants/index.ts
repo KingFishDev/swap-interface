@@ -3,7 +3,7 @@ import { ChainId, JSBI, Percent, Token, WETH } from '@thugs-defi/sdk'
 
 import { injected, binanceinjected, walletconnect, walletlink } from '../connectors'
 
-export const ROUTER_ADDRESS = '0x28e856DdBFCb518c3A3cB740b12D07880F7cB395'
+export const ROUTER_ADDRESS = '0x3bc677674df90A9e5D741f28f6CA303357D0E4Ec'
 
 // a list of tokens by chain
 type ChainTokenList = {
